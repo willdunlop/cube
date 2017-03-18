@@ -1,0 +1,91 @@
+
+.cube-container {
+  width: 120px;
+  height: 120px;
+  margin: 0 0 40px 40px;
+}
+
+  @-webkit-keyframes spincube {
+    from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg); }
+    20% { -webkit-transform: rotateY(72deg) rotateZ(36deg) rotateX(18deg);}
+    40% { -webkit-transform: rotateY(144deg) rotateZ(72deg) rotateX(36deg); }
+    60% { -webkit-transform: rotateY(216deg) rotateZ(108deg) rotateX(54deg); }
+    80% { -webkit-transform: rotateY(288deg) rotateZ(144deg) rotateX(72deg); }
+  }
+
+
+  .cubespinner {
+    -webkit-animation-name: spincube;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+
+    animation-name: spincube;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 6;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    -webkit-transform-origin: 80px 80px 0;
+    -moz-transform-origin: 80px 80px 0;
+    -ms-transform-origin: 80px 80px 0;
+    transform-origin: 80px 80px 0;
+  }
+
+  .cubespinner div {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 3px solid rgb(0,200,200);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+    line-height: 120px;
+    text-align: center;
+    font-size: 100px;
+    background: rgba(60,30,150,0.5);
+    background-size: contain;
+  }
+
+.cube-color {
+  background: #30f;
+}
+
+  .cubespinner .face1 {
+    -webkit-transform: translateZ(60px);
+    -moz-transform: translateZ(60px);
+    -ms-transform: translateZ(80px);
+    transform: translateZ(80px);
+  }
+  .cubespinner .face2 {
+    -webkit-transform: rotateY(90deg) translateZ(80px);
+    -moz-transform: rotateY(90deg) translateZ(80px);
+    -ms-transform: rotateY(90deg) translateZ(80px);
+    transform: rotateY(90deg) translateZ(80px);
+  }
+  .cubespinner .face3 {
+    -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+    -moz-transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+    -ms-transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+    transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+  }
+  .cubespinner .face4 {
+    -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+    -moz-transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+    -ms-transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+  }
+  .cubespinner .face5 {
+    -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(80px);
+    -moz-transform: rotateY(-90deg) rotateZ(90deg) translateZ(80px);
+    -ms-transform: rotateY(-90deg) rotateZ(90deg) translateZ(80px);
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(80px);
+  }
+  .cubespinner .face6 {
+    -webkit-transform: rotateX(-90deg) translateZ(80px);
+    -moz-transform: rotateX(-90deg) translateZ(80px);
+    -ms-transform: rotateX(-90deg) translateZ(80px);
+    transform: rotateX(-90deg) translateZ(80px);
+  }
