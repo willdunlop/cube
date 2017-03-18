@@ -1,8 +1,8 @@
-# BaseReduxProject
+# Cube
 
-Clone it and run
+Just a cube
 
 ```
-	> npm install
-	> npm start
+	cube
+
 ```
