@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cube from './cube/cube';
+import SmallCube from './cube/small_cube';
 
 export default class App extends Component {
   render() {
@@ -13,8 +14,8 @@ export default class App extends Component {
             <div className="panel-body">
               <div className="big-space">
                 <Cube />
+                <SmallCube />
               </div>
-
             </div>
           </div>
         </div>

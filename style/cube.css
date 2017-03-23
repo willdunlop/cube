@@ -1,16 +1,27 @@
+.containerContainer {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
 
 .cube-container {
   width: 120px;
   height: 120px;
   margin: 0 0 40px 40px;
+  z-index: 1
 }
 
   @-webkit-keyframes spincube {
-    from,to  { -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg); }
-    20% { -webkit-transform: rotateY(72deg) rotateZ(36deg) rotateX(18deg);}
-    40% { -webkit-transform: rotateY(144deg) rotateZ(72deg) rotateX(36deg); }
-    60% { -webkit-transform: rotateY(216deg) rotateZ(108deg) rotateX(54deg); }
-    80% { -webkit-transform: rotateY(288deg) rotateZ(144deg) rotateX(72deg); }
+    from,to  { -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
+    15% { -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
+    20% { -webkit-transform: rotateY(90deg) rotateZ(45deg) rotateX(45deg);}
+    35% { -webkit-transform: rotateY(90deg) rotateZ(45deg) rotateX(45deg);}
+    40% { -webkit-transform: rotateY(90deg) rotateZ(135deg) rotateX(135deg); }
+    55% { -webkit-transform: rotateY(90deg) rotateZ(135deg) rotateX(135deg); }
+    60% { -webkit-transform: rotateY(270deg) rotateZ(225deg) rotateX(225deg); }
+    75% { -webkit-transform: rotateY(270deg) rotateZ(225deg) rotateX(225deg); }
+    80% { -webkit-transform: rotateY(270deg) rotateZ(315deg) rotateX(315deg); }
+    95% { -webkit-transform: rotateY(270deg) rotateZ(315deg) rotateX(315deg); }
   }
 
 
