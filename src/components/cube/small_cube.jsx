@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SmallCube = () =>
-<div className="containerContainer">
+<div className="scontainerContainer">
     <div className="smallCube-container">
       <div className="smallCubespinner">
         <div className="smallCube-color sface1" />
