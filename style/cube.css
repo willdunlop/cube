@@ -67,7 +67,7 @@
     background: rgba(60,30,150,0.5);
   }*/
 
-  .cubespinner:hover {
+  /*.cubespinner:hover {
     transition: all 1s linear;
     -webkit-transition: all 1s linear;
     -moz-transition: all 1s linear;
@@ -77,10 +77,10 @@
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 6s;
 
-    /*-webkit-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
-    animation-play-state: paused;*/
-  }
+    animation-play-state: paused;
+  }*/
 
   .trigger {
     width: 120px;
@@ -100,7 +100,7 @@
   line-height: 120px;
   text-align: center;
   font-size: 100px;
-  background: rgba(60,30,150,0.3);
+  background: rgba(60,30,150,0.4);
   background-size: contain;
 
 }
