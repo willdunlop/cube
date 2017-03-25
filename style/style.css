@@ -1,3 +1,11 @@
+.container {
+  background: #222;
+}
+
+.black {
+  background: #222;
+}
+
 .top-buffer {
   margin-top: 20px;
 }
@@ -6,4 +14,9 @@
   width: 600px;
   height: 600px;
   padding: 25% 25% 25% 25%;
+}
+
+.brk {
+  width: 200px;
+  height: 200px;
 }

@@ -19,8 +19,8 @@
     15% { -webkit-transform: rotateY(270deg) rotateZ(225deg) rotateX(225deg); }
     20% { -webkit-transform: rotateY(270deg) rotateZ(315deg) rotateX(315deg); }
     35% { -webkit-transform: rotateY(270deg) rotateZ(315deg) rotateX(315deg); }
-    40%  { -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
-    55% { -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
+    40%  { -webkit-transform: rotateX(135deg) rotateY(0deg) rotateZ(45deg); }
+    55% { -webkit-transform: rotateX(135deg) rotateY(0deg) rotateZ(45deg); }
     60% { -webkit-transform: rotateY(90deg) rotateZ(45deg) rotateX(45deg);}
     75% { -webkit-transform: rotateY(90deg) rotateZ(45deg) rotateX(45deg);}
     80% { -webkit-transform: rotateY(90deg) rotateZ(135deg) rotateX(135deg); }
