@@ -13,7 +13,8 @@
 
 
   @-webkit-keyframes spincube {
-    from,to  { -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
+    from,to  { -webkit-transform: rotateX(180deg) rotateY(90deg) rotateZ(180deg); }
+    5% {-webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
     15% { -webkit-transform: rotateX(45deg) rotateY(0deg) rotateZ(45deg); }
     20% { -webkit-transform: rotateY(90deg) rotateZ(45deg) rotateX(45deg);}
     35% { -webkit-transform: rotateY(90deg) rotateZ(45deg) rotateX(45deg);}
@@ -67,7 +68,7 @@
     background: rgba(60,30,150,0.5);
   }*/
 
-  /*.cubespinner:hover {
+  .cubespinner:hover {
     transition: all 1s linear;
     -webkit-transition: all 1s linear;
     -moz-transition: all 1s linear;
@@ -77,10 +78,10 @@
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-duration: 6s;
 
-    -webkit-animation-play-state: paused;
+    /*-webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
-    animation-play-state: paused;
-  }*/
+    animation-play-state: paused;*/
+  }
 
   .trigger {
     width: 120px;
